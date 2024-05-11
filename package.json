@@ -1,6 +1,6 @@
 {
   "name": "login-quick",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a package design to not repeat the same logic of login",
   "main": "index.js",
   "scripts": {
