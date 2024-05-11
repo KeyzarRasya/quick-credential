@@ -21,10 +21,12 @@ and return status 401 if failed, and also is return back the obj that you create
 <b>dontCopy</b>: if allowCopy set to true you have to fill this attribute, for example if you fill this attribute with email, every email in the model must have a unique value </p>
 
 <h3>cred.login(model, toFind, {identifier, password}, {isHash})</h3>
-<P>this method is used for checking if the account exist or not, this method will return status:200 if account found  
-and return status:401 if its not</P>
+<p>this method is used for checking if the account exist or not, this method will return status:200 if account found  
+and return status:401 if its not</p>
+
 ![image](https://github.com/KeyzarRasya/quick-credential/assets/76760159/022080bf-414b-4cf7-a05f-f4ddc3ae91e8)
-<p><b>model</b>: your model to check the account is available or not (example: user model)</p>
-<p><b>toFind</b>: what field you want to field as identifier? its up tp yout model, if you using username, you can go with username, if you using email, you can go with email</p>
-<p><b>{identifier, password}</b>: once you declare what field you want to find, now you can fill the value of the fiels using identifier, password is used to verify that this is your account or not</p>
-<p><b>{isHash}</b>: by default it set to false, but if you set hash to true in the signup method you need to turn this into true also</p>
+
+<p><b>model</b>: your model to check the account is available or not (example: user model)<br>
+<b>toFind</b>: what field you want to field as identifier? its up tp yout model, if you using username, you can go with username, if you using email, you can go with email<br>
+<b>{identifier, password}</b>: once you declare what field you want to find, now you can fill the value of the fiels using identifier, password is used to verify that this is your account or not<br>
+<b>{isHash}</b>: by default it set to false, but if you set hash to true in the signup method you need to turn this into true also</p>
