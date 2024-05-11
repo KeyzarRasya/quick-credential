@@ -10,6 +10,10 @@ npm install login-quick
 
 <h3>cred.login(model, toFind, {identifier, password}, {isHash})</h3>
 <P>this method is used for checking if the account exist or not, this method will return status:200 if account found
+
+![image](https://github.com/KeyzarRasya/quick-credential/assets/76760159/022080bf-414b-4cf7-a05f-f4ddc3ae91e8)
+
+  
 and return status:401 if its not</P>
 <p><b>model</b>: your model to check the account is available or not (example: user model)</p>
 <p><b>toFind</b>: what field you want to field as identifier? its up tp yout model, if you using username, you can go with username, if you using email, you can go with email</p>
