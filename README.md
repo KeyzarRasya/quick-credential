@@ -16,12 +16,18 @@ npm install login-quick
   most of the time we usually create the same login and signup logic for different application,
   its wasting our time to do that so using this package, your job can be a lot easier</p>
 
-![image](https://github.com/KeyzarRasya/quick-credential/assets/76760159/0ddebcaf-cf42-47d7-b2d9-bd15826e8aa1)
+<h3>cred.connect(connectionString)</h3>
+to use every method in this package, first you have to make connection to your MongoDB.
+
+![image](https://github.com/KeyzarRasya/quick-credential/assets/76760159/99149f0b-e3c5-487f-95b5-09d1ae07365f)
 
 
 <h3>cred.signup(model, obj, {isHash, allowCopy, dontCopy)</h3>
 <p>this method is used to signing up your account into database, this method will return you the status 200 if its success
 and return status 401 if failed, and also is return back the obj that you create</p>
+
+![image](https://github.com/KeyzarRasya/quick-credential/assets/76760159/0ddebcaf-cf42-47d7-b2d9-bd15826e8aa1)
+
 <p><b>model</b>: your model to check the account is available or not (example: user model)<br>
 <b>obj</b>: obj is an object, pass this parameter by sending your model object value<br>
 <b>isHash</b>:default true, if you set this to true, that signup call will hash your plain password and save the hashed ones<br>
