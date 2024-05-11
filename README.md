@@ -3,6 +3,14 @@
 <h2>Installation</h2>
 npm install login-quick
 
+<h2>Initializing</h2>
+
+![image](https://github.com/KeyzarRasya/quick-credential/assets/76760159/0ed232e1-c4a5-4e0b-95e0-7666fb6de52f)
+
+<h2>Requirements</h2>
+<b>this package is only supporti mongoDB only via mongoose package!</b>
+
+
 <h2>Usage</h2>
 <p>login-quick is designed to make developer job easier especially in creating login and signup logic, 
   most of the time we usually create the same login and signup logic for different application,
