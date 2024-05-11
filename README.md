@@ -8,7 +8,7 @@ npm install login-quick
 ![image](https://github.com/KeyzarRasya/quick-credential/assets/76760159/0ed232e1-c4a5-4e0b-95e0-7666fb6de52f)
 
 <h2>Requirements</h2>
-<b>this package is only supporti mongoDB only via mongoose package!</b>
+<b>this package is only supporting mongoDB only via mongoose package!</b>
 
 
 <h2>Usage</h2>
@@ -17,9 +17,9 @@ npm install login-quick
   its wasting our time to do that so using this package, your job can be a lot easier</p>
 
 <h3>cred.connect(connectionString)</h3>
-to use every method in this package, first you have to make connection to your MongoDB.
+to use every method in this package, you have to make connection to your MongoDB first.
 
-![image](https://github.com/KeyzarRasya/quick-credential/assets/76760159/99149f0b-e3c5-487f-95b5-09d1ae07365f)
+![image](https://github.com/KeyzarRasya/quick-credential/assets/76760159/3af9fb33-db5c-4f5f-8ed6-a49ae6150234)
 
 
 <h3>cred.signup(model, obj, {isHash, allowCopy, dontCopy)</h3>
