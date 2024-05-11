@@ -1,0 +1,1 @@
+const Credentials = require('./src/Credential')
